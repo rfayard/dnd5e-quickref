@@ -1,4 +1,4 @@
-data_reaction = [
+EN_data_reaction = [
     {
         title: "Opportunity attack",
         icon: "crossed-swords",

@@ -1,4 +1,4 @@
-data_environment_obscurance = [
+FR_data_environment_obscurance = [
     {
         title: "Lightly obscured",
         icon: "bleeding-eye",
@@ -21,7 +21,7 @@ data_environment_obscurance = [
     }
 ]
 
-data_environment_light = [
+FR_data_environment_light = [
     {
         title: "Bright light",
         icon: "star-pupil",
@@ -57,7 +57,7 @@ data_environment_light = [
     }
 ]
 
-data_environment_vision = [
+FR_data_environment_vision = [
     {
         title: "Blindsight",
         icon: "one-eyed",
@@ -93,7 +93,7 @@ data_environment_vision = [
     }
 ]
 
-data_environment_cover = [
+FR_data_environment_cover = [
     {
         title: "Half cover",
         icon: "broken-shield",

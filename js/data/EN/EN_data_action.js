@@ -1,4 +1,4 @@
-data_action = [
+EN_data_action = [
     {
         title: "Attack",
         icon: "crossed-swords",

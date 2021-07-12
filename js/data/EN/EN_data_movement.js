@@ -1,4 +1,4 @@
-data_movement = [
+EN_data_movement = [
     {
         title: "Move",
         icon: "run",

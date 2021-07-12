@@ -1,4 +1,4 @@
-data_condition = [
+EN_data_condition = [
     {
         title: "Blinded",
         icon: "one-eyed",

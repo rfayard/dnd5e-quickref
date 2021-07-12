@@ -50,22 +50,35 @@ function hide_modal() {
 }
 
 function fill_section(data, parentname, type) {
+    empty_section(parentname);
     var parent = document.getElementById(parentname);
     data.forEach(function (item) {
         add_quickref_item(parent, item, type);
     });
 }
 
-function init() {
-    fill_section(data_movement, "basic-movement", "Move");
-    fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+function empty_section(parentname) {
+    var parent = document.getElementById(parentname);
+        parent.innerHTML = "";
+}
+
+function init(lang) {
+    if (typeof lang === "string" || lang instanceof String) {
+        console.log("all good");
+    } else {
+        lang = "EN";
+    }
+    console.log("passage init")
+    console.log("what is data= ", window[lang + "_data_movement"], "héhé = ", lang + "_data_movement" )
+    fill_section(window[lang + "_data_movement"], "basic-movement", "Move");
+    fill_section(window[lang + "_data_action"], "basic-actions", "Action");
+    fill_section(window[lang + "_data_bonusaction"], "basic-bonus-actions", "Bonus action");
+    fill_section(window[lang + "_data_reaction"], "basic-reactions", "Reaction");
+    fill_section(window[lang + "_data_condition"], "basic-conditions", "Condition");
+    fill_section(window[lang + "_data_environment_obscurance"], "environment-obscurance", "Environment");
+    fill_section(window[lang + "_data_environment_light"], "environment-light", "Environment");
+    fill_section(window[lang + "_data_environment_vision"], "environment-vision", "Environment");
+    fill_section(window[lang + "_data_environment_cover"], "environment-cover", "Environment");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
