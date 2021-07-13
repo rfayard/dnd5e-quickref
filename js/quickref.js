@@ -2,6 +2,7 @@ function add_quickref_item(parent, data, type) {
     var icon = data.icon || "perspective-dice-six-faces-one";
     var subtitle = data.subtitle || "";
     var title = data.title || "[no title]";
+    var bType = data.type || type;
 
     var item = document.createElement("div");
     item.className += "item itemsize"
@@ -18,7 +19,7 @@ function add_quickref_item(parent, data, type) {
     var color = style.backgroundColor;
 
     item.onclick = function () {
-        show_modal(data, color, type);
+        show_modal(data, color,bType);
     }
 
     parent.appendChild(item);
@@ -62,6 +63,37 @@ function empty_section(parentname) {
         parent.innerHTML = "";
 }
 
+function add_base_data(parent, data, index) {
+        var items = [];
+        Object.entries(data).forEach(entry => {
+            const [key, value] = entry;
+            let item = document.createElement("div");
+            switch(key) {
+                case title:
+                    item.className = "section-title";
+                    item.innerHTML = value + ' ' + "<span class='float-right'>" + data.max + "</span>";
+                    items.push(item);
+                    break;
+                case subtitle:
+                    item.className = "section-content";
+                    item.innerHTML = "<div class='section-row section-subtitle text fontsize'>\\" + value + "</div> <div class='section-row' id=" + data.subtitleId + "></div>";
+                    items.push(item);
+                    break;
+            }
+          });
+        items.forEach(child => {
+            parent.appendChild(child);
+        })
+}
+
+function fill_section_base(data, parentname) {
+    empty_section(parentname);
+    var parent = document.getElementById(parentname);
+    data.forEach(function (item) {
+        add_base_data(parent, item, index);
+    })
+}
+
 function init(lang) {
     if (typeof lang === "string" || lang instanceof String) {
         console.log("all good");
@@ -69,6 +101,11 @@ function init(lang) {
         lang = "EN";
     }
     console.log("passage init")
+
+    console.log(window[lang + "_data_movement_title"], "section-movement");
+
+    fill_section_base(window[lang + "_data_movement_title"], "section-movement");
+
     console.log("what is data= ", window[lang + "_data_movement"], "héhé = ", lang + "_data_movement" )
     fill_section(window[lang + "_data_movement"], "basic-movement", "Move");
     fill_section(window[lang + "_data_action"], "basic-actions", "Action");

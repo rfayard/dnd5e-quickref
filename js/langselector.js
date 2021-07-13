@@ -1,6 +1,6 @@
 // import { load } from "quickref.js";
 
-let srcBase = ["data_action.js", "data_bonusaction.js", "data_condition.js", "data_environment.js", "data_movement.js", "data_reaction.js"]
+let srcBase = ["data_action.js", "data_bonusaction.js", "data_condition.js", "data_environment.js", "data_movement.js", "data_reaction.js", "data_sections.js"]
 
 function selLang(sel) {
     let sourceBase = "js/data/" + sel.value + "/"
@@ -8,6 +8,7 @@ function selLang(sel) {
     switch (sel.value) {
         case "EN":
             console.log("Case EN")
+            break;
         case "FR":
             console.log("Case FR")
             if ($("#" + sel.value + "_firstDataScript").length) {
@@ -26,6 +27,7 @@ function selLang(sel) {
                     $("head").append(s);
                 });
             }
+            break;
     }
     init(sel.value);
 }

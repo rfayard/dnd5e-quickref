@@ -1,5 +1,6 @@
 FR_data_environment_obscurance = [
     {
+        type: "Environnement",
         title: "Lightly obscured",
         icon: "bleeding-eye",
         subtitle: "Disadvantage on Perception",
@@ -10,6 +11,7 @@ FR_data_environment_obscurance = [
         ]
     },
     {
+        type: "Environnement",
         title: "Heavily obscured",
         icon: "lightning-tear",
         subtitle: "Effectively blind",
@@ -23,6 +25,7 @@ FR_data_environment_obscurance = [
 
 FR_data_environment_light = [
     {
+        type: "Environnement",
         title: "Bright light",
         icon: "star-pupil",
         subtitle: "Normal vision",
@@ -33,6 +36,7 @@ FR_data_environment_light = [
         ]
     },
     {
+        type: "Environnement",
         title: "Dim light",
         icon: "semi-closed-eye",
         subtitle: "Lightly obscured",
@@ -45,6 +49,7 @@ FR_data_environment_light = [
         ]
     },
     {
+        type: "Environnement",
         title: "Darkness",
         icon: "worried-eyes",
         subtitle: "Heavily obscured",
@@ -59,6 +64,7 @@ FR_data_environment_light = [
 
 FR_data_environment_vision = [
     {
+        type: "Environnement",
         title: "Blindsight",
         icon: "one-eyed",
         subtitle: "Perceive without sight",
@@ -69,6 +75,7 @@ FR_data_environment_vision = [
         ]
     },
     {
+        type: "Environnement",
         title: "Darkvision",
         icon: "semi-closed-eye",
         subtitle: "Limited vision in darkness",
@@ -81,6 +88,7 @@ FR_data_environment_vision = [
         ]
     },
     {
+        type: "Environnement",
         title: "Truesight",
         icon: "eye-shield",
         subtitle: "See in darkness",
@@ -95,6 +103,7 @@ FR_data_environment_vision = [
 
 FR_data_environment_cover = [
     {
+        type: "Environnement",
         title: "Half cover",
         icon: "broken-shield",
         subtitle: "Low wall, furniture, creatures",
@@ -107,6 +116,7 @@ FR_data_environment_cover = [
         ]
     },
     {
+        type: "Environnement",
         title: "Three-quarters cover",
         icon: "cracked-shield",
         subtitle: "Portcullis, arrow slit",
@@ -119,6 +129,7 @@ FR_data_environment_cover = [
         ]
     },
     {
+        type: "Environnement",
         title: "Full cover",
         icon: "shield",
         subtitle: "Completely concealed",
