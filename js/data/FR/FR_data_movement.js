@@ -1,17 +1,17 @@
 FR_data_movement = [
     {
         type: "Mouvement",
-        title: "Move",
+        title: "Déplacement",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
-        reference: "PHB, pg. 190.",
+        subtitle: "Coût: 9 m par 9 m",
+        description: "Coût de déplacement : 9 m par 9 m parcouru",
+        reference: "MDJ, p. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Si vous avez plus d’une vitesse, comme votre vitesse de marche et une vitesse de vol, vous pouvez intervertir entre vos différentes vitesses durant votre déplacement. Quand vous changez, soustrayez la distance que vous avez déjà parcouru à la nouvelle vitesse.",
+            "Vous pouvez traverser la case d’une créature non-hostile.",
+            "Vous pouvez traverser la case d’une créature hostile seulement si la créature est d’au minimum deux tailles supérieure ou inférieure à vous. ",
+            "La case d’une autre créature est un terrain difficile pour vous.",
+            "Peut-importe si la créature est un ami ou un ennemi, vous ne pouvez pas volontairement finir votre déplacement sur sa case."
         ]
     },
     {

@@ -69,14 +69,14 @@ function add_base_data(parent, data, index) {
             const [key, value] = entry;
             let item = document.createElement("div");
             switch(key) {
-                case title:
+                case "title":
                     item.className = "section-title";
                     item.innerHTML = value + ' ' + "<span class='float-right'>" + data.max + "</span>";
                     items.push(item);
                     break;
-                case subtitle:
+                case "subtitle":
                     item.className = "section-content";
-                    item.innerHTML = "<div class='section-row section-subtitle text fontsize'>\\" + value + "</div> <div class='section-row' id=" + data.subtitleId + "></div>";
+                    item.innerHTML = "<div class='section-row section-subtitle text fontsize'>" + value + "</div> <div class='section-row' id=" + data.subtitleId + "></div>";
                     items.push(item);
                     break;
             }
@@ -90,7 +90,7 @@ function fill_section_base(data, parentname) {
     empty_section(parentname);
     var parent = document.getElementById(parentname);
     data.forEach(function (item) {
-        add_base_data(parent, item, index);
+        add_base_data(parent, item);
     })
 }
 
