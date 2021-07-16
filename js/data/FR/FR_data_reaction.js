@@ -1,5 +1,6 @@
 FR_data_reaction = [
     {
+        type: "Réaction",
         title: "Opportunity attack",
         icon: "crossed-swords",
         subtitle: "Enemy leaves your reach",
@@ -13,6 +14,7 @@ FR_data_reaction = [
         ]
     },
     {
+        type: "Réaction",
         title: "Readied action",
         icon: "stopwatch",
         subtitle: "Part of your Ready action",
@@ -23,6 +25,7 @@ FR_data_reaction = [
         ]
     },
     {
+        type: "Réaction",
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 reaction",
