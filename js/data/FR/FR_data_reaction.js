@@ -1,13 +1,13 @@
 FR_data_reaction = [
     {
         type: "Réaction",
-        title: "Opportunity attack",
+        title: "Attaque d'opportunité",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        subtitle: "Une ennemi sort de votre zone d'allonge",
+        description: "Vous pouvez rarement vous dédouaner d’un combat sans vous mettre en danger",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
+            "Condition: une créature ennemie sort de votre zone d’allonge.",
             "Make one melee attack against the provoking creature.",
             "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
             "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
