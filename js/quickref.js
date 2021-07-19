@@ -53,6 +53,12 @@ function hide_modal() {
 function fill_section(data, parentname, type) {
     empty_section(parentname);
     var parent = document.getElementById(parentname);
+
+    
+    // data.sort(dynamicSort("title"));
+
+    // console.log("console.log de data", data);
+
     data.forEach(function (item) {
         add_quickref_item(parent, item, type);
     });
@@ -65,6 +71,7 @@ function empty_section(parentname) {
 
 function add_base_data(parent, data, index) {
         var items = [];
+
         Object.entries(data).forEach(entry => {
             const [key, value] = entry;
             let item = document.createElement("div");
@@ -89,9 +96,28 @@ function add_base_data(parent, data, index) {
 function fill_section_base(data, parentname) {
     empty_section(parentname);
     var parent = document.getElementById(parentname);
+
+
     data.forEach(function (item) {
         add_base_data(parent, item);
     })
+}
+
+function dynamicSort(property) {
+    let sortOrder = 1;
+
+    if(property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+
+    return function(a,b) {
+        if(sortOrder == -1) {
+            return b[property].localeCompare(a[property]);
+        } else {
+            return a[property].localeCompare(b[property]);
+        }
+    }
 }
 
 function init(lang) {
@@ -100,11 +126,16 @@ function init(lang) {
     } else {
         lang = "EN";
     }
-    console.log("passage init")
+    console.log("passage init", lang)
 
     console.log(window[lang + "_data_movement_title"], "section-movement");
 
     fill_section_base(window[lang + "_data_movement_title"], "section-movement");
+    fill_section_base(window[lang + "_data_action_title"], "section-action");
+    fill_section_base(window[lang + "_data_bonus_action_title"], "section-bonus-action");
+    fill_section_base(window[lang + "_data_reaction_title"], "section-reaction");
+    fill_section_base(window[lang + "_data_condition_title"], "section-condition");
+    // fill_section_base(window[lang + "_data_movement_title"], "section-movement");
 
     console.log("what is data= ", window[lang + "_data_movement"], "héhé = ", lang + "_data_movement" )
     fill_section(window[lang + "_data_movement"], "basic-movement", "Move");
@@ -121,4 +152,8 @@ function init(lang) {
     modal.onclick = hide_modal;
 }
 
-$(window).load(init);
+$("select").on("change", function() {
+    selLang(this);
+}).change();
+
+// $(window).load(init);
