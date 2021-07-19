@@ -8,26 +8,26 @@ FR_data_action = [
         bullets: [
             "Certaines capacités, comme l'<em>Attaque supplémentaire</em> du Guerrier, vous permettent d'effectuer plus d'une attaque avec cette action. Chaque attaque requiet un jet séparé et peut cibler une créature différente. Vous pouvez vous déplacer entre ces attaques.",
             "Quand vous attaquez avec une arme de corps à corps légère, vous pouvez utiliser une action bonus pour attaquer avec votre autre main (voir l'action bonus <em>Attaque ambidextre</em>).",
-            "Vous pouvez remplacer une de vos attaques de corps à corps par une <em>Lutte</em> ou une <em>Bousculade</em>.",
+            "Vous pouvez remplacer une de vos attaques de corps à corps par une <em>Empoignade</em> ou une <em>Bousculade</em>.",
             "Certaines conditions donnent un avantage durant l’attaque : les attaques contre les cibles aveuglées, paralysées, pétrifiées, restreintes, étourdies ou inconscientes ; les attaques de corps à corps contre des cibles a terre ; les attaques par des attaquants invisibles ou cachés.",
             "Certaines conditions donnent un désavantage durant l’attaque: les attaques contre les cibles invisibles ou cachées; les attaques à distance contre des cibles au sol; attaques par des attaquants aveuglés, effrayés, empoisonnés, ou restreints."
         ]
     },
     {
-        title: "Grapple",
+        title: "Empoignade",
         icon: "grab",
         subtitle: "Attaque spéciale au corps à corps",
         description: "Tenter d'attraper une créature ou de lutter avec elle.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Vous pouvez utiliser une action d’<em>Attaque</em> pour faire une attaque spéciale au corps à corps, une lutte. Si vous pouvez faire plusieurs attaques avec votre action d’attaque, cette action remplace une d’entre-elles.",
-            "La cible de votre lutte ne peut pas être plus d’une taille supérieure à la vôtre, et elle doit être à votre portée.",
-            "En utilisant au moins une main libre, vous essayez de saisir une cible en faisait un test de lutte, un test de <em>Force (Athlétisme)</em> contesté par un test de <em>Force (Athlétisme)</em> ou <em>Dextérité (Acrobatie)</em> au choix de la cible.",
+            "Vous pouvez utiliser une action d’<em>Attaque</em> pour faire une attaque spéciale au corps à corps, une empoignade. Si vous pouvez faire plusieurs attaques avec votre action d’attaque, cette action remplace une d’entre-elles.",
+            "La cible de votre empoignade ne peut pas être plus d’une taille supérieure à la vôtre, et elle doit être à votre portée.",
+            "En utilisant au moins une main libre, vous essayez de saisir une cible en faisait un test d'empoignade, un test de <em>Force (Athlétisme)</em> contesté par un test de <em>Force (Athlétisme)</em> ou <em>Dextérité (Acrobatie)</em> au choix de la cible.",
             "Si vous réussissez, la cible gagne le statut empoigné (sa vitesse est réduite à 0)."
         ]
     },
     {
-        title: "Shove",
+        title: "Bousculer une créature",
         icon: "hand",
         subtitle: "Attaque spéciale au corps à corps",
         description: "Vous bousculez une cible, soit pour la mettre à terre soit pour l’éloigner de vous",
@@ -89,7 +89,7 @@ FR_data_action = [
         description: "Se libérer d'une empoignade",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Pour s’échapper d’une lutte, vous devez réussir un test de <em>Force (Athlétisme)</em> ou <em>Dextérité (Acrobatie)</em> contesté par un test de <em>Force (Athlétisme)</em> de l’attaquant.",
+            "Pour s’échapper d’une empoignade, vous devez réussir un test de <em>Force (Athlétisme)</em> ou <em>Dextérité (Acrobatie)</em> contesté par un test de <em>Force (Athlétisme)</em> de l’attaquant.",
             "S’échapper d’autres éléments qui pourraient vous restreindre (comme des menottes) peut nécessiter un test de <em>Dextérité</em> ou de <em>Force</em>, en fonction de l’élément."
         ]
     },
@@ -152,7 +152,7 @@ FR_data_action = [
         ]
     },
     {
-        title: "Préparer son action",
+        title: "Se tenir prêt",
         icon: "stopwatch",
         subtitle: "Choisir un déclencheur et une action",
         description: "Choisissez un élément déclencheur et une réaction en réponse",

@@ -1,78 +1,78 @@
 FR_data_condition = [
     {
-        title: "Blinded",
+        title: "Aveuglé",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "Vous ne voyez plus",
+        description: "Vous ne voyez plus",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Vous ratez automatiquement tous les tests de caractéristiques qui requièrent la vue.",
+            "Vous avez un désavantage sur les jets d’attaque.",
+            "Les jets d’attaque contre vous ont un avantage."
         ]
     },
     {
-        title: "Charmed",
+        title: "Charmé",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "Vous êtes charmé",
+        description: "Vous êtes charmé par une autre créature",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Vous ne pouvez pas attaquer votre charmeur ou les cibler avec des capacités néfastes ou des effets magiques.",
+            "Votre charmeur a un avantage durant les tests de caractéristiques pour interagir socialement avec vous."
         ]
     },
     {
-        title: "Deafened",
+        title: "Assourdi",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "Vous n'entendez plus",
+        description: "Vous n'entendez plus",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Vous ratez automatiquement tous les jets de caractéristiques qui requièrent l'ouïe. "
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Épuisé",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "Vous êtes épuisé",
+        description: "L'épuisement se mesure en six niveaux",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Désavantage sur les jets de caractéristiques</td></tr><tr><td>2</td><td></td><td></td><td>Vitesse réduite de moitié</td></tr><tr><td>3</td><td></td><td></td><td>Désavantage sur les jets d’attaque et les jets de sauvegarde</td></tr><tr><td>4</td><td></td><td></td><td>Maximum de points de vie réduit de moitié</td></tr><tr><td>5</td><td></td><td></td><td>Vitesse réduite à 0</td></tr><tr><td>6</td><td></td><td></td><td>Décès</td></tr></table>",
+            "Vous subissez les effets de votre niveau actuel d’épuisement ainsi que ceux des niveaux précédents.",
+            "Finir un long repos réduit votre épuisement d’un niveau, à condition d’avoir eu à boire et à manger.",
+            "Additionnellement, être ramené à la vie réduit l'épuisement d'une créature d'un niveau."
         ]
     },
     {
-        title: "Frightened",
+        title: "Effrayé",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Vous êtes effrayé",
+        description: "Vous êtes effrayé",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Vous avez un désavantage sur les jets de caractéristiques et les jets d’attaque tant que la source de votre peur est dans votre champ de vision.",
+            "Vous ne pouvez pas vous approcher volontairement de la source de votre peur."
         ]
     },
     {
-        title: "Grappled",
+        title: "Empoigné",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Vous êtes empoigné",
+        description: "Vous êtes empoigné",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Votre vitesse passe à 0, et vous ne pouvez pas bénéficier de bonus sur votre vitesse.",
+            "Le statut se termine si l’empoigneur est neutralisé.",
+            "Le statut se termine également si vous êtes hors de l’allonge de l’empoigneur."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Neutralisé",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "Vous ne pouvez pas faire d’actions ni de réactions",
+        description: "Vous ne pouvez pas faire d’actions ni de réactions",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
@@ -80,121 +80,121 @@ FR_data_condition = [
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "Vous ne pouvez être vu",
+        description: "Vous ne pouvez être vu sans l'aide de la magie ou d'un sens spécial",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Dans le but de se cacher, vous êtes dans une zone de visibilité nulle.",
+            "Vous pouvez toujours être détecté si vous faites du bruit ou laissez des traces.",
+            "Vous avez l’avantage sur les jets d’attaque.",
+            "Les jets d’attaque contre vous ont un désavantage."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Paralysé",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Vous êtes paralysé",
+        description: "Vous ne pouvez rien faire",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Vous êtes neutralisé et ne pouvez ni bouger ni parler.",
+            "Les jets d’attaque contre vous ont l’avantage.",
+            "Toutes les attaques qui vous touchent sont des coups critiques si l’attaquant est à 1,50 mètres ou moins de vous.",
+            "Vous ratez automatiquement vos <em>jets de sauvegarde de Force</em> et de <em>Dextérité</em>."
         ]
     },
     {
-        title: "Petrified",
+        title: "Pétrifié",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Vous êtes transformé en pierre",
+        description: "Vous êtes transformé, vous et tous les objets non-magiques que vous portez ou transportez, en une substance solide inanimée (généralement en pierre).",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Votre poids est multiplié par 10 et vous cessez de vieillir.",
+            "Vous êtes neutralisé, vous ne pouvez ni bouger ni parler, et n’êtes pas conscient de ce qui se passe autour de vous. ",
+            "Les jets d’attaque contre vous ont un avantage.",
+            "Vous ratez automatiquement tous vos <em>jets de sauvegarde de Force</em> et de <em>Dextérité</em>.",
+            "Vous avez une résistance à tous les dégâts.",
+            "Vous êtes immunisé aux poisons et aux maladies, bien qu’un poison ou une maladie déjà dans votre système est seulement suspendu et non neutralisé."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Empoisonné",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "Vous êtes empoisonné",
+        description: "Vous êtes empoisonné",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Vous avez un désavantage sur les jets d’attaque et les jets de caractéristiques."
         ]
     },
     {
-        title: "Prone",
+        title: "À terre",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "Vous êtes à terre",
+        description: "Vous êtes à terre",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Votre seule option de mouvement est de ramper, à moins que vous vous releviez.",
+            "Vous avez un désavantage sur les jets d’attaque.",
+            "Les jets d’attaques contre vous ont un avantage si l’attaquant est à 1,50 mètres de vous, sinon les jets d’attaque ont un désavantage."
         ]
     },
     {
-        title: "Restrained",
+        title: "Entravé",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "Vous êtes entravé",
+        description: "Vous êtes entravé",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "Votre vitesse devient 0, et vous ne pouvez pas bénéficier de bonus sur votre vitesse.",
+            "Vous avez un désavantage sur vos jets d'attaque.",
+            "Les jets d’attaque contre vous ont un avantage.",
+            "Vous avez un désavantage sur les <em>jets de sauvegarde de Dextérité</em>."
         ]
     },
     {
-        title: "Stunned",
+        title: "Étourdi",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "Vous êtes étourdi",
+        description: "Vous êtes étourdi",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Vous êtes neutralisé, ne pouvez pas bouger, et ne pouvez parler que de manière hésitante. ",
+            "Les jets d’attaque contre vous ont l’avantage.",
+            "Vous ratez automatiquement vos <em>jets de sauvegarde de Force</em> et de <em>Dextérité</em>."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Inconscient",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "Vous êtes inconscient",
+        description: "Vous êtes inconscient",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Vous êtes neutralisé, vous ne pouvez ni bouger ni parler, et n’êtes pas conscient de ce qui se passe autour de vous. ",
+            "Vous lâchez immédiatement ce que vous teniez et tombez à terre.",
+            "Les jets d’attaque contre vous ont l’avantage.",
+            "Toutes les attaques qui vous touchent sont des coups critiques si l’attaquant est à 1,50 mètres ou moins de vous.",
+            "Vous ratez automatiquement vos <em>jets de sauvegarde de Force</em> et de <em>Dextérité</em>.",
         ]
     },
     {
-        title: "Dying",
+        title: "Mourant",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "Vous êtes mourant",
+        description: "Vos points de vie sont tombées à 0 et vous êtes mourant",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Si vos points de vie sont réduit à 0 par des dégâts ne vous ayant pas tué, vous êtes inconscient et mourant.",
+            "Si vous recevez le moindre soin vous regagnez immédiatement conscience et n'êtes plus mourant.",
+            "Lorsque vous êtes mourant, au début de chacun de vos tours faites un <em>jet de sauvegarde contre la mort</em>. Lancez un d20 et n'ajoutez aucun modificateur.",
+            "Sur un 10 ou plus, le jet est un succès, sur un 9 ou moins, c'est un échec.",
+            "Au bout de trois succès, vous êtes stabilisé.",
+            "Au bout de trois échecs, vous mourrez.",
+            "Un 1 sur le dé compte comme deux échecs.",
+            "Un 20 sur le dé vous rend immédiatement un point de vie.",
+            "Vous pouvez également être stabilisé par un allié utilisant l'action <em>Stabiliser une créature</em> qui réussi un test de <em>Sagesse (Médecine) DD10</em>.",
+            "Une fois stabilisé, vous regagnez un point de vie après 1d4 heures."
         ]
     }
 ]
