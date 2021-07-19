@@ -8,32 +8,32 @@ FR_data_reaction = [
         reference: "PHB, pg. 195.",
         bullets: [
             "Condition: une créature ennemie sort de votre zone d’allonge.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Faites une attaque au corps à corps contre la créature qui a activé la condition.",
+            "L’attaque interrompt le mouvement de la créature, juste avant que la créature sorte de votre allonge.",
+            "Les créatures ne provoquent pas d’attaque d’opportunité quand elles se téléportent, ou quand quelqu’un ou quelque chose les bougent sans utiliser ses mouvements, actions ou réaction."
         ]
     },
     {
         type: "Réaction",
-        title: "Readied action",
+        title: "Action préparée",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        subtitle: "Fait partie de l'action <em>Se tenir prêt</em>",
+        description: "Exécutez la réaction préparée par votre action Se tenir prêt",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Condition : spécifiée par votre action <em>Se tenir prêt</em>."
         ]
     },
     {
         type: "Réaction",
-        title: "Cast a spell",
+        title: "Lancer un sort",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        subtitle: "Temps d'incantation d'une réaction",
+        description: "Lancez un sort avec un temps d'incantation d'une réaction",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Condition : Spécifiée par le sort.",
+            "Pour plus de détails, voir l’action <em>Lancer un sort</em>."
         ]
     }
 ]

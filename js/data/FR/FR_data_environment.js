@@ -1,24 +1,24 @@
 FR_data_environment_obscurance = [
     {
         type: "Environnement",
-        title: "Lightly obscured",
+        title: "Visibilité réduite",
         icon: "bleeding-eye",
-        subtitle: "Disadvantage on Perception",
-        description: "Dim light, patchy fog, moderate foliage",
+        subtitle: "Désavantage sur la Perception",
+        description: "Une faible lumière, une légère brume ou un léger feuillage.",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures have <b>disadvantage on Wisdom (Perception)</b> checks that rely on sight."
+            "Les créatures ont des <strong>désavantages sur les tests de Sagesse (Perception)</strong> qui s’appuient sur la vision."
         ]
     },
     {
         type: "Environnement",
-        title: "Heavily obscured",
+        title: "Visibilité nulle",
         icon: "lightning-tear",
-        subtitle: "Effectively blind",
-        description: "Darkness, opaque fog, dense foliage",
+        subtitle: "Pratiquement aveugle",
+        description: "L'obscurité, un brouillard opaque, une végétation dense",
         reference: "PHB, pg. 183.",
         bullets: [
-            "A creature in a heavily obscured area effectively suffers from the <b>blinded condition</b>."
+            "Une créature dans une zone de visibilité nulle a le statut <strong>aveuglé</strong>."
         ]
     }
 ]
@@ -26,38 +26,38 @@ FR_data_environment_obscurance = [
 FR_data_environment_light = [
     {
         type: "Environnement",
-        title: "Bright light",
+        title: "Lumière vive",
         icon: "star-pupil",
-        subtitle: "Normal vision",
-        description: "Bright light lets most creatures see normally",
+        subtitle: "Visibilité totale",
+        description: "Lumière vive qui permet à la plupart des créatures de voir normalement.",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Gloomy days still provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius."
+            "Même les mauvais temps permettent une lumière vive, tout comme les torches, les lanternes, les feux et toutes les autres sources de lumières avec un rayon spécifique."
         ]
     },
     {
         type: "Environnement",
-        title: "Dim light",
+        title: "Lumière faible",
         icon: "semi-closed-eye",
-        subtitle: "Lightly obscured",
-        description: "Dim light, also called shadows",
+        subtitle: "Visibilité réduite",
+        description: "Lumière faible, aussi appelée pénombre",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creates a <b>lightly obscured</b> area.",
-            "An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness.",
-            "The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light."
+            "Crée une zone <strong>visibilité réduite</strong>.",
+            "Une zone de lumière faible est habituellement entre une source de lumière vive, comme une torche, et les ténèbres environnantes.",
+            "La lumière douce de l’aube et du crépuscule est aussi considérée comme une lumière faible. Une pleine lune particulièrement lumineuse peut être considérée comme une lumière faible."
         ]
     },
     {
         type: "Environnement",
-        title: "Darkness",
+        title: "Ténèbres",
         icon: "worried-eyes",
-        subtitle: "Heavily obscured",
-        description: "Darkness creates a heavily obscured area",
+        subtitle: "Visibilité nulle",
+        description: "Les ténèbres créent une zone de visibilité nulle",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creates a <b>heavily obscured</b> area.",
-            "Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness."
+            "Créent une zone de <strong>visibilité nulle</strong>.",
+            "Les personnages font face aux ténèbres la nuit en extérieur (la plupart du temps même sous la lumière de la lune), aux confins d'un donjon plongé dans l'obscurité ou d'une vaste chambre souterraine, ou dans une zone de ténèbres magiques."
         ]
     }
 ]
@@ -65,38 +65,38 @@ FR_data_environment_light = [
 FR_data_environment_vision = [
     {
         type: "Environnement",
-        title: "Blindsight",
+        title: "Vision aveugle",
         icon: "one-eyed",
-        subtitle: "Perceive without sight",
-        description: "Perceive your surroundings without relying on sight, within a certain radius",
+        subtitle: "Perception sans vision",
+        description: "Percevez le monde qui vous entoure sans se fier à la vue, jusqu'à une certaine distance",
         reference: "PHB, pg. 183.",
         bullets: [
-            "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."
+            "Les créatures sans yeux, tels que les vases, les créatures dotées d’écholocalisation ou dotées de sens accrus, tels que les chauves-souris et les vrais dragons, ont ce sens."
         ]
     },
     {
         type: "Environnement",
-        title: "Darkvision",
+        title: "Vision dans le noir",
         icon: "semi-closed-eye",
-        subtitle: "Limited vision in darkness",
-        description: "A creature with Darkvision can see better in the dark or low light conditions, within a certain radius",
+        subtitle: "Vision limitée dans les ténèbres",
+        description: "Une créature avec Vision dans le noir peut mieux voir dans les ténèbres ou si la luminosité est faible, jusqu'à une certaine distance",
         reference: "PHB, pgs. 183-184.",
         bullets: [
-            "Within a specified range, a creature with darkvision can <b>see in darkness as if the darkness were dim light</b>, so areas of darkness are only lightly obscured as far as that creature is concerned.",
-            "However, the creature can’t discern color in darkness, only shades of gray.",
-            "Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision."
+            "Sur une certaine distance, une créature dotée de Vision dans le noir peut <strong>voir dans les ténèbres comme s’il s’agissait d’une lumière faible</strong>, par conséquent les zones de ténèbres semblent faiblement éclairées pour cette créature.",
+            "Cependant, cette créature ne peut pas discerner les couleurs dans les ténèbres, seulement les nuances de gris.",
+            "Beaucoup de créatures, dans les mondes de D&D, surtout celles qui vivent sous terre, ont la capacité de voir dans le noir."
         ]
     },
     {
         type: "Environnement",
-        title: "Truesight",
+        title: "Vision parfaite",
         icon: "eye-shield",
-        subtitle: "See in darkness",
-        description: "A creature with truesight can see everything in its true form, independent of the environment",
+        subtitle: "Voir dans les ténèbres",
+        description: "Une créature dotée de vision parfaite perçoit toute chose sous sa véritable forme, indépendamment de son environnement",
         reference: "PHB, pg. 184.",
         bullets: [
-            "A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic.",
-            "Furthermore, the creature can see into the Ethereal Plane."
+            "Une créature dotée d'une vision parfaite peut, jusqu'à une certaine distance, percevoir des créatures et des objets invisibles, détecter automatiquement les illusions visuelles et réussir les jets de sauvegarde contre celles-ci, percevoir la véritable forme d’une métamorphe ou d’une créature transformée par la magie.",
+            "De plus, la créature peut voir dans le Plan Éthéré."
         ]
     }
 ]
@@ -104,22 +104,22 @@ FR_data_environment_vision = [
 FR_data_environment_cover = [
     {
         type: "Environnement",
-        title: "Half cover",
+        title: "Abri partiel",
         icon: "broken-shield",
-        subtitle: "Low wall, furniture, creatures",
-        description: "A target has half cover if an obstacle blocks at least half of its body",
+        subtitle: "Un muret, un meuble ou une créature",
+        description: "Une cible possède un abri partiel si un obstacle bloque au moins la moitié de son corps.",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.",
-            "A target with half cover has a <b>+2 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "L’obstacle peut-être un muret, un large meuble, un tronc d’arbre étroit, ou une autre créature, peut importe si cette créature est ennemie ou alliée.",
+            "Une cible qui bénéficie d’un abri partiel applique un <strong>bonus de +2 à sa CA et à ses jets de sauvegarde de Dextérité</strong>.",
+            "Si une cible est derrière plusieurs sources d’abri, seul l'abri possédant octroyant le plus grand degré de protection est pris en compte."
         ]
     },
     {
         type: "Environnement",
-        title: "Three-quarters cover",
+        title: "Abri important",
         icon: "cracked-shield",
-        subtitle: "Portcullis, arrow slit",
+        subtitle: "Herse, meurtrière",
         description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
         reference: "PHB, pg. 196.",
         bullets: [
