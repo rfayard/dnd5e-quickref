@@ -4,6 +4,7 @@ let srcBase = ["data_action.js", "data_bonusaction.js", "data_condition.js", "da
 
 function selLang(sel) {
     let sourceBase = "js/data/" + sel.value + "/"
+    console.log("sel =", sel);
     console.log("selected =", sel.value)
     switch (sel.value) {
         case "EN":

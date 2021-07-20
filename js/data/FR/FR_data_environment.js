@@ -120,24 +120,24 @@ FR_data_environment_cover = [
         title: "Abri important",
         icon: "cracked-shield",
         subtitle: "Herse, meurtrière",
-        description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
+        description: "Une cible possède un abri important si un obstacle bloque au moins les trois quarts de son corps.",
         reference: "PHB, pg. 196.",
         bullets: [
-            "The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.",
-            "A target with three-quarters cover has a <b>+5 bonus to AC and Dexterity saving throws</b>.",
-            " If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "L’obstacle pourrait être une herse, une meurtrière ou un gros tronc d’arbre.",
+            "Une cible qui bénéficie d’un abri important applique un <strong>bonus de +5 à sa CA</strong> et à ses <strong>jets de sauvegarde de Dextérité</strong>.",
+            "Si une cible est derrière plusieurs sources d’abri, seul l'abri possédant octroyant le plus grand degré de protection est pris en compte."
         ]
     },
     {
         type: "Environnement",
-        title: "Full cover",
+        title: "Abri total",
         icon: "shield",
-        subtitle: "Completely concealed",
-        description: "A target has total cover if it is completely concealed by an obstacle",
+        subtitle: "Complètement couvert",
+        description: "Une cible possède un abri total si elle est complément dissimulée par un obstacle.",
         reference: "PHB, pg. 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
-            "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
+            "Une cible qui bénéficie d’un abri total <strong>ne peux pas être ciblé directement par une attaque ou un sort</strong>, bien que certains sorts puissent atteindre leur cible en l’incluant dans sa zone d’effet.",
+            "Si une cible est derrière plusieurs sources d’abri, seul l'abri possédant octroyant le plus grand degré de protection est pris en compte."
         ]
     }
 ]
