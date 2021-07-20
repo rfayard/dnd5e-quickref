@@ -49,5 +49,23 @@ EN_data_environment_title = [
         max: "",
         subtitle: "Effects that obscure vision can prove a significant hindrance to most adventuring tasks.",
         subtitleId: "environment-obscurance"
+    },
+    {
+        // title: "Effets environnementaux",
+        // max: "",
+        subtitle: "The presence or absence of light in an environment creates three categories of illumination.",
+        subtitleId: "environment-light"
+    },
+    {
+        // title: "Effets environnementaux",
+        // max: "",
+        subtitle: "Some creatures have extraordinary senses that allow them to perceive their environment.",
+        subtitleId: "environment-vision"
+    },
+    {
+        // title: "Effets environnementaux",
+        // max: "",
+        subtitle: "Obstacles can provide cover during combat, making a target more difficult to harm.",
+        subtitleId: "environment-cover"
     }
 ]

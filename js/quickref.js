@@ -69,7 +69,7 @@ function empty_section(parentname) {
         parent.innerHTML = "";
 }
 
-function add_base_data(parent, data, index) {
+function add_base_data(parent, data) {
         var items = [];
 
         Object.entries(data).forEach(entry => {
@@ -135,7 +135,7 @@ function init(lang) {
     fill_section_base(window[lang + "_data_bonus_action_title"], "section-bonus-action");
     fill_section_base(window[lang + "_data_reaction_title"], "section-reaction");
     fill_section_base(window[lang + "_data_condition_title"], "section-condition");
-    // fill_section_base(window[lang + "_data_movement_title"], "section-movement");
+    fill_section_base(window[lang + "_data_environment_title"], "section-environment");
 
     console.log("what is data= ", window[lang + "_data_movement"], "héhé = ", lang + "_data_movement" )
     fill_section(window[lang + "_data_movement"], "basic-movement", "Move");

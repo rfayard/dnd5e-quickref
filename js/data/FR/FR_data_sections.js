@@ -49,5 +49,23 @@ FR_data_environment_title = [
         max: "",
         subtitle: "Les effets qui peuvent obscurcir la vision peuvent être une entrave à n’importe quelle aventure.",
         subtitleId: "environment-obscurance"
+    },
+    {
+        // title: "Effets environnementaux",
+        // max: "",
+        subtitle: "La présence ou l’absence de lumière dans un environnement créée trois catégories de luminosité.",
+        subtitleId: "environment-light"
+    },
+    {
+        // title: "Effets environnementaux",
+        // max: "",
+        subtitle: "Certaines créatures ont des sens extraordinaires qui leur permettent de percevoir d’une manière particulière.",
+        subtitleId: "environment-vision"
+    },
+    {
+        // title: "Effets environnementaux",
+        // max: "",
+        subtitle: "Les obstacles peuvent donner un abri pendant un combat, rendant une cible plus difficile à atteindre.",
+        subtitleId: "environment-cover"
     }
 ]
