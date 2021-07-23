@@ -116,6 +116,53 @@
     height: 100%;
 }
 
+/* ------------------------------------------------------------------------- */
+/* Language Selector */
+/* ------------------------------------------------------------------------- */
+
+/* #selLang-icon {
+    float: left;
+    flex: 0 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 4px;
+    background-image: url(../img/globe.png);
+} */
+
+#select-container {
+    background-color: black;
+    display: flex;
+    border: 8px solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+#select-container img {
+    height: 32px;
+}
+
+#selLang {
+    width: 200px;
+    float: left;
+    flex: 0 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 4px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Lora, 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 16pt;
+}
+
 
 /* ------------------------------------------------------------------------- */
 /* Colors */
