@@ -105,7 +105,7 @@ FR_data_environment_cover = [
     {
         type: "Environnement",
         title: "Abri partiel",
-        icon: "small-wall",
+        icon: "smaller-broken-wall",
         subtitle: "Un muret, un meuble ou une créature",
         description: "Une cible possède un abri partiel si un obstacle bloque au moins la moitié de son corps.",
         reference: "PHB, pg. 196.",
