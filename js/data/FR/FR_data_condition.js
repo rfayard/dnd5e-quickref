@@ -39,7 +39,7 @@ FR_data_condition = [
         description: "L'épuisement se mesure en six niveaux",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Désavantage sur les jets de caractéristiques</td></tr><tr><td>2</td><td></td><td></td><td>Vitesse réduite de moitié</td></tr><tr><td>3</td><td></td><td></td><td>Désavantage sur les jets d’attaque et les jets de sauvegarde</td></tr><tr><td>4</td><td></td><td></td><td>Maximum de points de vie réduit de moitié</td></tr><tr><td>5</td><td></td><td></td><td>Vitesse réduite à 0</td></tr><tr><td>6</td><td></td><td></td><td>Décès</td></tr></table>",
+            "<table><tr><th>Niveau</th><th></th><th></th><th style='text-align:left'>Effet</th></tr><tr><td>1</td><td></td><td></td><td>Désavantage sur les jets de caractéristiques</td></tr><tr><td>2</td><td></td><td></td><td>Vitesse réduite de moitié</td></tr><tr><td>3</td><td></td><td></td><td>Désavantage sur les jets d’attaque et les jets de sauvegarde</td></tr><tr><td>4</td><td></td><td></td><td>Maximum de points de vie réduit de moitié</td></tr><tr><td>5</td><td></td><td></td><td>Vitesse réduite à 0</td></tr><tr><td>6</td><td></td><td></td><td>Décès</td></tr></table>",
             "Vous subissez les effets de votre niveau actuel d’épuisement ainsi que ceux des niveaux précédents.",
             "Finir un long repos réduit votre épuisement d’un niveau, à condition d’avoir eu à boire et à manger.",
             "Additionnellement, être ramené à la vie réduit l'épuisement d'une créature d'un niveau."
