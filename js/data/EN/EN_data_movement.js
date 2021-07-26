@@ -15,7 +15,7 @@ EN_data_movement = [
     },
     {
         title: "Climb",
-        icon: "crags",
+        icon: "mountain-climbing",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
@@ -25,7 +25,7 @@ EN_data_movement = [
     },
     {
         title: "Swim",
-        icon: "at-sea",
+        icon: "swimfins",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft swum",
         reference: "PHB, pg. 182.",
@@ -67,7 +67,7 @@ EN_data_movement = [
     },
     {
         title: "High jump",
-        icon: "wingfoot",
+        icon: "jumping-rope",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         
@@ -81,7 +81,7 @@ EN_data_movement = [
     },
     {
         title: "Long jump",
-        icon: "wingfoot",
+        icon: "jump-across",
         subtitle: "Cost: 5ft per 5ft",
         description: "Movement cost: 5ft per 5ft jumped",
         reference: "PHB, pg. 182.",
@@ -94,7 +94,7 @@ EN_data_movement = [
     },
     {
         title: "Improvise",
-        icon: "juggler",
+        icon: "think",
         subtitle: "Any stunt not on this list",
         description: "Perform any movement or stunt you can imagine",
         bullets: [

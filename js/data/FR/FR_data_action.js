@@ -28,7 +28,7 @@ FR_data_action = [
     },
     {
         title: "Bousculer une créature",
-        icon: "hand",
+        icon: "push",
         subtitle: "Attaque spéciale au corps à corps",
         description: "Vous bousculez une cible, soit pour la mettre à terre soit pour l’éloigner de vous",
         reference: "PHB, pg. 195.",
@@ -64,7 +64,7 @@ FR_data_action = [
     },
     {
         title: "Se désengager",
-        icon: "journey",
+        icon: "slalom",
         subtitle: "Empêche les attaques d'opportunités",
         description: "Votre mouvement ne provoque pas d’attaque d’opportunité pour le reste du tour.",
         reference: "PHB, pg. 192.",
@@ -73,7 +73,7 @@ FR_data_action = [
     },
     {
         title: "Esquiver",
-        icon: "aura",
+        icon: "dodging",
         subtitle: "Améliore vos défenses",
         description: "Vous vous concentrez uniquement sur l’esquive d’attaque",
         reference: "PHB, pg. 192.",
@@ -84,7 +84,7 @@ FR_data_action = [
     },
     {
         title: "Se libérer",
-        icon: "manacles",
+        icon: "breaking-chain",
         subtitle: "Se libérer d'une empoignade",
         description: "Se libérer d'une empoignade",
         reference: "PHB, pg. 195.",
@@ -95,7 +95,7 @@ FR_data_action = [
     },
     {
         title: "Aider",
-        icon: "telepathy",
+        icon: "all-for-one",
         subtitle: "Donner un avantage à un allié",
         description: "Donnez un avantage à un allié sur un test de caractéristiques ou sur un jet d'attaque",
         reference: "PHB, pg. 192.",
@@ -107,7 +107,7 @@ FR_data_action = [
     },
     {
         title: "Utiliser un objet",
-        icon: "snatch",
+        icon: "robber-hand",
         subtitle: "Interagir, utiliser une compétence spéciale",
         description: "Interagissez avec un deuxième objet ou utilisez des compétences spécifiques d’objets",
         reference: "PHB, pg. 193.",
@@ -118,7 +118,7 @@ FR_data_action = [
     },
     {
         title: "Équipez un bouclier",
-        icon: "round-shield",
+        icon: "attached-shield",
         subtitle: "Équiper ou retirer un bouclier",
         description: "Équiper ou retirer un bouclier",
         reference: "PHB, pgs. 144-146.",
@@ -188,7 +188,7 @@ FR_data_action = [
     },
     {
         title: "Improviser",
-        icon: "juggler",
+        icon: "think",
         subtitle: "Toute action qui n'est pas sur cette liste",
         description: "Effectuer n'importe quelle action que vous pouvez imaginer",
         reference: "PHB, pg. 193.",

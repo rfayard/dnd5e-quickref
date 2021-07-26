@@ -28,7 +28,7 @@ EN_data_action = [
     },
     {
         title: "Shove",
-        icon: "hand",
+        icon: "push",
         subtitle: "Special melee attack",
         description: "Shove a creature, either to knock it prone or push it away from you",
         reference: "PHB, pg. 195.",
@@ -64,7 +64,7 @@ EN_data_action = [
     },
     {
         title: "Disengage",
-        icon: "journey",
+        icon: "slalom",
         subtitle: "Prevent opportunity attacks",
         description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
         reference: "PHB, pg. 192.",
@@ -73,7 +73,7 @@ EN_data_action = [
     },
     {
         title: "Dodge",
-        icon: "aura",
+        icon: "dodging",
         subtitle: "Increase defenses",
         description: "Focus entirely on avoiding attacks",
         reference: "PHB, pg. 192.",
@@ -84,7 +84,7 @@ EN_data_action = [
     },
     {
         title: "Escape",
-        icon: "manacles",
+        icon: "breaking-chain",
         subtitle: "Escape a grapple",
         description: "Escape a grapple",
         reference: "PHB, pg. 195.",
@@ -95,7 +95,7 @@ EN_data_action = [
     },
     {
         title: "Help",
-        icon: "telepathy",
+        icon: "all-for-one",
         subtitle: "Grant an ally advantage",
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
@@ -107,7 +107,7 @@ EN_data_action = [
     },
     {
         title: "Use Object",
-        icon: "snatch",
+        icon: "robber-hand",
         subtitle: "Interact, use special abilities",
         description: "Interact with a second object or use special object abilities",
         reference: "PHB, pg. 193.",
@@ -118,7 +118,7 @@ EN_data_action = [
     },
     {
         title: "Use shield",
-        icon: "round-shield",
+        icon: "attached-shield",
         subtitle: "Equip or unequip a shield",
         description: "Equip or unequip a shield",
         reference: "PHB, pgs. 144-146.",
@@ -188,7 +188,7 @@ EN_data_action = [
     },
     {
         title: "Improvise",
-        icon: "juggler",
+        icon: "think",
         subtitle: "Any action not on this list",
         description: "Perform any action you can imagine",
         reference: "PHB, pg. 193.",
