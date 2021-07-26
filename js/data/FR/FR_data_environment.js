@@ -2,7 +2,7 @@ FR_data_environment_obscurance = [
     {
         type: "Environnement",
         title: "Visibilité réduite",
-        icon: "bleeding-eye",
+        icon: "high-grass",
         subtitle: "Désavantage sur la Perception",
         description: "Une faible lumière, une légère brume ou un léger feuillage.",
         reference: "PHB, pg. 183.",
@@ -13,7 +13,7 @@ FR_data_environment_obscurance = [
     {
         type: "Environnement",
         title: "Visibilité nulle",
-        icon: "lightning-tear",
+        icon: "fog",
         subtitle: "Pratiquement aveugle",
         description: "L'obscurité, un brouillard opaque, une végétation dense",
         reference: "PHB, pg. 183.",
@@ -27,7 +27,7 @@ FR_data_environment_light = [
     {
         type: "Environnement",
         title: "Lumière vive",
-        icon: "star-pupil",
+        icon: "sun",
         subtitle: "Visibilité totale",
         description: "Lumière vive qui permet à la plupart des créatures de voir normalement.",
         reference: "PHB, pg. 183.",
@@ -38,7 +38,7 @@ FR_data_environment_light = [
     {
         type: "Environnement",
         title: "Lumière faible",
-        icon: "semi-closed-eye",
+        icon: "sun-cloud",
         subtitle: "Visibilité réduite",
         description: "Lumière faible, aussi appelée pénombre",
         reference: "PHB, pg. 183.",
@@ -51,7 +51,7 @@ FR_data_environment_light = [
     {
         type: "Environnement",
         title: "Ténèbres",
-        icon: "worried-eyes",
+        icon: "moon-bats",
         subtitle: "Visibilité nulle",
         description: "Les ténèbres créent une zone de visibilité nulle",
         reference: "PHB, pg. 183.",
@@ -66,7 +66,7 @@ FR_data_environment_vision = [
     {
         type: "Environnement",
         title: "Vision aveugle",
-        icon: "one-eyed",
+        icon: "blindfold",
         subtitle: "Perception sans vision",
         description: "Percevez le monde qui vous entoure sans se fier à la vue, jusqu'à une certaine distance",
         reference: "PHB, pg. 183.",
@@ -77,7 +77,7 @@ FR_data_environment_vision = [
     {
         type: "Environnement",
         title: "Vision dans le noir",
-        icon: "semi-closed-eye",
+        icon: "night-vision",
         subtitle: "Vision limitée dans les ténèbres",
         description: "Une créature avec Vision dans le noir peut mieux voir dans les ténèbres ou si la luminosité est faible, jusqu'à une certaine distance",
         reference: "PHB, pgs. 183-184.",
@@ -90,7 +90,7 @@ FR_data_environment_vision = [
     {
         type: "Environnement",
         title: "Vision parfaite",
-        icon: "eye-shield",
+        icon: "gaze",
         subtitle: "Voir dans les ténèbres",
         description: "Une créature dotée de vision parfaite perçoit toute chose sous sa véritable forme, indépendamment de son environnement",
         reference: "PHB, pg. 184.",
@@ -105,7 +105,7 @@ FR_data_environment_cover = [
     {
         type: "Environnement",
         title: "Abri partiel",
-        icon: "broken-shield",
+        icon: "small-wall",
         subtitle: "Un muret, un meuble ou une créature",
         description: "Une cible possède un abri partiel si un obstacle bloque au moins la moitié de son corps.",
         reference: "PHB, pg. 196.",
@@ -118,7 +118,7 @@ FR_data_environment_cover = [
     {
         type: "Environnement",
         title: "Abri important",
-        icon: "cracked-shield",
+        icon: "broken-wall",
         subtitle: "Herse, meurtrière",
         description: "Une cible possède un abri important si un obstacle bloque au moins les trois quarts de son corps.",
         reference: "PHB, pg. 196.",
@@ -131,7 +131,7 @@ FR_data_environment_cover = [
     {
         type: "Environnement",
         title: "Abri total",
-        icon: "shield",
+        icon: "brick-wall",
         subtitle: "Complètement couvert",
         description: "Une cible possède un abri total si elle est complément dissimulée par un obstacle.",
         reference: "PHB, pg. 196.",

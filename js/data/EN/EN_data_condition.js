@@ -1,7 +1,7 @@
 EN_data_condition = [
     {
         title: "Blinded",
-        icon: "one-eyed",
+        icon: "sight-disabled",
         subtitle: "You can't see",
         description: "You can't see",
         reference: "PHB, pg. 290.",
@@ -24,7 +24,7 @@ EN_data_condition = [
     },
     {
         title: "Deafened",
-        icon: "elf-ear",
+        icon: "hearing-disabled",
         subtitle: "You can't hear",
         description: "You can't hear",
         reference: "PHB, pg. 290.",
@@ -34,7 +34,7 @@ EN_data_condition = [
     },
     {
         title: "Exhaustion",
-        icon: "crawl",
+        icon: "tired-eye",
         subtitle: "You are exhausted",
         description: "Exhaustion is measured in six levels",
         reference: "PHB, pg. 291.",
@@ -47,7 +47,7 @@ EN_data_condition = [
     },
     {
         title: "Frightened",
-        icon: "sharp-smile",
+        icon: "screaming",
         subtitle: "You are frightened",
         description: "You are frightened",
         reference: "PHB, pg. 290.",
@@ -92,7 +92,7 @@ EN_data_condition = [
     },
     {
         title: "Paralyzed",
-        icon: "internal-injury",
+        icon: "thunder-struck",
         subtitle: "You are paralyzed",
         description: "You can't do anything",
         bullets: [
@@ -104,7 +104,7 @@ EN_data_condition = [
     },
     {
         title: "Petrified",
-        icon: "stone-pile",
+        icon: "rock-golem",
         subtitle: "You are transformed into stone",
         description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
         reference: "PHB, pg. 291.",
@@ -154,7 +154,7 @@ EN_data_condition = [
     },
     {
         title: "Stunned",
-        icon: "internal-injury",
+        icon: "knockout",
         subtitle: "You are stunned",
         description: "You are stunned",
         reference: "PHB, pg. 292.",

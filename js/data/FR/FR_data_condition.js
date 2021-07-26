@@ -1,7 +1,7 @@
 FR_data_condition = [
     {
         title: "Aveuglé",
-        icon: "one-eyed",
+        icon: "sight-disabled",
         subtitle: "Vous ne voyez plus",
         description: "Vous ne voyez plus",
         reference: "PHB, pg. 290.",
@@ -24,7 +24,7 @@ FR_data_condition = [
     },
     {
         title: "Assourdi",
-        icon: "elf-ear",
+        icon: "hearing-disabled",
         subtitle: "Vous n'entendez plus",
         description: "Vous n'entendez plus",
         reference: "PHB, pg. 290.",
@@ -34,7 +34,7 @@ FR_data_condition = [
     },
     {
         title: "Épuisé",
-        icon: "crawl",
+        icon: "tired-eye",
         subtitle: "Vous êtes épuisé",
         description: "L'épuisement se mesure en six niveaux",
         reference: "PHB, pg. 291.",
@@ -47,7 +47,7 @@ FR_data_condition = [
     },
     {
         title: "Effrayé",
-        icon: "sharp-smile",
+        icon: "screaming",
         subtitle: "Vous êtes effrayé",
         description: "Vous êtes effrayé",
         reference: "PHB, pg. 290.",
@@ -92,7 +92,7 @@ FR_data_condition = [
     },
     {
         title: "Paralysé",
-        icon: "internal-injury",
+        icon: "thunder-struck",
         subtitle: "Vous êtes paralysé",
         description: "Vous ne pouvez rien faire",
         bullets: [
@@ -104,7 +104,7 @@ FR_data_condition = [
     },
     {
         title: "Pétrifié",
-        icon: "stone-pile",
+        icon: "rock-golem",
         subtitle: "Vous êtes transformé en pierre",
         description: "Vous êtes transformé, vous et tous les objets non-magiques que vous portez ou transportez, en une substance solide inanimée (généralement en pierre).",
         reference: "PHB, pg. 291.",
@@ -154,7 +154,7 @@ FR_data_condition = [
     },
     {
         title: "Étourdi",
-        icon: "internal-injury",
+        icon: "knockout",
         subtitle: "Vous êtes étourdi",
         description: "Vous êtes étourdi",
         reference: "PHB, pg. 292.",

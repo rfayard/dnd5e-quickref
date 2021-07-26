@@ -17,7 +17,7 @@ FR_data_movement = [
     {
         type: "Mouvement",
         title: "Escalade",
-        icon: "crags",
+        icon: "mountain-climbing",
         subtitle: "Coût: 3 m par 1,5 m",
         description: "Coût de déplacement: 3 m par 1,5 m esacaladés",
         reference: "PHB, pg. 182.",
@@ -28,7 +28,7 @@ FR_data_movement = [
     {
         type: "Mouvement",
         title: "Nage",
-        icon: "at-sea",
+        icon: "swimfins",
         subtitle: "Coût: 3 m par 1,5 m",
         description: "Coût de déplacement: 3 m par 1,5 m nagés",
         reference: "PHB, pg. 182.",
@@ -74,7 +74,7 @@ FR_data_movement = [
     {
         type: "Mouvement",
         title: "Saut en hauteur",
-        icon: "wingfoot",
+        icon: "jumping-rope",
         subtitle: "Coût: 1,5 m par 1,5 m",
         description: "Coût de déplacement: 1,5 m par 1,5 m sautés",
         
@@ -89,7 +89,7 @@ FR_data_movement = [
     {
         type: "Mouvement",
         title: "Saut en longueur",
-        icon: "wingfoot",
+        icon: "jump-across",
         subtitle: "Coût: 1,5 m par 1,5 m",
         description: "Coût de déplacement: 1,5 m par 1,5 m sautés",
         reference: "PHB, pg. 182.",
@@ -103,7 +103,7 @@ FR_data_movement = [
     {
         type: "Mouvement",
         title: "Improviser",
-        icon: "juggler",
+        icon: "think",
         subtitle: "Toute acrobatie qui n'est pas sur cette liste",
         description: "Faites n’importe quel mouvement ou acrobatie que vous pouvez imaginer",
         bullets: [
